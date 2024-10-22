@@ -1,0 +1,96 @@
+1)
+Algoritmo "bah"
+
+var
+ i, f1, f2, p, c : inteiro
+ vf: logico
+inicio
+ escreva("Qual valor deseja comparar com Fibonacci: ")
+ leia(c)
+
+ f1 <- 0
+ f2 <- 1
+ vf <- falso
+
+ escreval(f1)
+ escreval(f2)
+
+ para i de 3 ate 13 faca
+  p <- f1 + f2
+  escreval(p)
+
+  f1 <- f2
+  f2 <- p
+  
+  se c = p entao
+    vf <- verdadeiro
+  fimse
+ fimpara
+ 
+  se vf = verdadeiro entao
+   escreva("O valor pertence a Fabonacci")
+    senao
+    escreva("O valor nao pertence a Fabonacci")
+  fimse
+fimalgoritmo
+--------------------------------------------------
+2) 
+//Esta com um erro e não estou conseguindo acertar, porem já estou a horas e não consigo resolver.
+
+Algoritmo "bah"
+
+Var
+ t: caractere
+ l: caractere
+ i, cont: inteiro
+
+Inicio
+ cont <- 0
+
+ escreva("Digite o texto: ")
+  leia(t)
+  escreva("Digite a letra que deseja contar: ")
+   leia(l)
+   
+ para i de 1 ate compr(t) faca
+  se t[i] = l ou t[i] = maiusc(l) ou t[i] = minusc(l) entao
+   cont <- cont + 1
+   fimse
+   fimpara
+
+ escreval("A letra '", l, "' aparece ", cont, " vezes no texto.")
+Fimalgoritmo
+
+--------------------------------------------------
+3)
+Algoritmo "bah"
+Var
+indice, soma, k: inteiro
+
+Inicio
+soma <- 0
+k <- 1
+indice <- 12
+
+enquanto k < indice faca
+ k <- k+1
+ soma <- soma+k
+ fimenquanto
+ 
+ escreva("resultado e: ", soma)
+
+Fimalgoritmo
+--------------------------------------------------
+4)
+a-9
+b-128
+c-49
+d-128
+e-13
+f-20?
+--------------------------------------------------
+5) Ligaria o primeiro interruptor e deixaria a lampada aquecer por alguns minutos, entãoo ligaria o segundo interruptor e o terceiro deixaria desligado.
+Indo para uma das salas eu já conseguiria descobrir qual das 3 opções seria, se estivese ligada seria o segundo interruptor, se estivesse com a lampada
+quente seria o primeiro interruptor e caso estivesse desligado seria o terceiro, colando na ipotesse de ser a opção de estar quente, seria o primeiro, 
+então só teria que verificar em outra sala ( usando minha segunda ida) para saber qual das outras duas opções seria e assim chegar a conclução de qual
+é qual. (Eu vi esse enigma em uma serie da Netflix, foi divertido relembrar)  
